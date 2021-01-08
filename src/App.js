@@ -1,8 +1,11 @@
-
+import { Header } from "./Components/Headers/Header";
+import { Launches } from "./Components/Launches/Launches";
+import './styles.css';
 function App() {
   return (
     <div>
-      <h1>welcome to space x</h1>
+      <Header/>
+      <Launches />
     </div>
   );
 }

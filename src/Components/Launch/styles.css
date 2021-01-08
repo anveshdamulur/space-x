@@ -1,0 +1,50 @@
+.container-launch{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 5px cadetblue;
+}
+.launch-image{
+    width: 150px;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.launch-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.launch-data{
+    flex-direction: row;
+    width: 100%;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.launch-data-info{
+    display : flex;
+    height: 50px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+.para p {
+        margin-right: 5px;
+        cursor: pointer;
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 1px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 15px;
+        padding: 2px;
+    
+}
