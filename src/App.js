@@ -16,9 +16,8 @@ function App() {
           <Header/>
           <Switch>
              
-              <Route path='/LaunchView/:flight_number'>
-                  <LaunchView />
-              </Route>
+              <Route path='/LaunchView/:flight_number' component={LaunchView}/>
+          
               <Route path="/">
                   <Launches/>
               </Route>
