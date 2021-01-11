@@ -65,8 +65,6 @@ a{
     .launch-image{
         width: 150px;
         flex-direction: column;
-        border: 1px solid black;
-    
     }
     .launch-image img{
         width: 150px;
@@ -77,7 +75,6 @@ a{
         display: flex;
         flex-direction: column;
        padding: 10px;
-        border: 1px solid black;
         font-size: 5px;
         width: 100%;
         height: auto;
@@ -86,7 +83,6 @@ a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border: 1px solid red;
         line-height: 0;
         font-size: 6.5px;
         width: 100%;
@@ -95,6 +91,4 @@ a{
     .launch-data .para{
         font-size: 10px;
     }
-
-    
   }
