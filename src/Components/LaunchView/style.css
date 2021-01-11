@@ -1,7 +1,6 @@
 .attribute{
     display: flex;
     width: 100%;
-    
     justify-content: space-between;
     height: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,8 +8,7 @@
 .attribute .title{
     color: saddlebrown;
     font-size: 0.8em;
-    width: 30%;
-   
+    width: 30%;  
 }
 .attribute .data{
     font-size: 1.2em;
@@ -25,7 +23,8 @@
     margin-bottom: 20px;
 }
 .container-launchview img{
-   max-width:700px;
+   max-width:600px;
     height: 500px;
     margin: auto;
 }
+

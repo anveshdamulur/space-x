@@ -11,3 +11,9 @@
     font-size: 50px;
     color: white;
 }
+.header p{
+    text-align: right;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
